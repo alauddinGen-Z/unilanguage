@@ -87,10 +87,14 @@ export async function GET(request: NextRequest) {
             date,
             course,
         });
-    } catch (error) {
+    } catch (error: any) {
         console.error('Error in GET /api/booking:', error);
         return NextResponse.json(
-            { error: 'Failed to fetch available slots' },
+            {
+                error: 'Failed to fetch available slots',
+                details: error.message || 'Unknown error',
+                code: error.code
+            },
             { status: 500 }
         );
     }

@@ -32,7 +32,7 @@ export default function WallOfFame() {
     });
 
     return (
-        <section ref={containerRef} className="py-32 px-6 relative overflow-hidden bg-gradient-to-br from-orange-600 via-orange-500 to-amber-600">
+        <section ref={containerRef} style={{ position: 'relative' }} className="py-32 px-6 relative overflow-hidden bg-gradient-to-br from-orange-600 via-orange-500 to-amber-600">
             {/* Dynamic Background Elements */}
             <div className="absolute inset-0 pointer-events-none overflow-hidden">
                 {/* Gradient Blobs - White/Light for contrast against Orange */}
