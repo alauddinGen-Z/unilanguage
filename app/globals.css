@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-white text-secondary;
+    }
+}
+
+@layer utilities {
+    .text-gradient {
+        @apply bg-gradient-orange bg-clip-text text-transparent;
+    }
+
+    .ticker-animation {
+        animation: ticker 20s linear infinite;
+    }
+
+    @keyframes ticker {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+}

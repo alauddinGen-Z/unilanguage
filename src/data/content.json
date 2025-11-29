@@ -1,0 +1,148 @@
+{
+    "brand": {
+        "name": "UNI Language Hub",
+        "slogan": "Impossible is possible with U",
+        "visual_identity": {
+            "vibe": "Energetic Orange backgrounds, 3D illustrative icons (compass, headphones), clean white cards"
+        },
+        "key_benefits": [
+            "International teachers",
+            "Modern methodology",
+            "Individual approach"
+        ]
+    },
+    "offer": {
+        "new_courses": [
+            "IELTS",
+            "SAT"
+        ],
+        "incentives": [
+            {
+                "type": "discount",
+                "description": "Pay full course = 10% Discount"
+            },
+            {
+                "type": "referral",
+                "description": "Bring a friend = Get 500 SOM"
+            },
+            {
+                "type": "grand_prize",
+                "description": "Get up to $200 reward for a high IELTS score"
+            },
+            {
+                "type": "free_service",
+                "description": "Free Diagnostics included"
+            }
+        ]
+    },
+    "success_stories": [
+        {
+            "name": "Asamdinova Khanbike",
+            "overall_score": 7.5,
+            "scores": {
+                "listening": 9.0,
+                "reading": 7.5,
+                "writing": 6.5,
+                "speaking": 7.5
+            },
+            "note": "Passed on First Attempt"
+        },
+        {
+            "name": "Aldashov Syrgak",
+            "overall_score": 7.0,
+            "scores": {
+                "listening": 7.5,
+                "reading": 7.0,
+                "writing": 6.5,
+                "speaking": 7.5
+            },
+            "note": "Passed on First Attempt"
+        },
+        {
+            "name": "Kadyrkulova Gulnur",
+            "overall_score": 6.5,
+            "scores": {
+                "listening": 7.5,
+                "reading": 6.5,
+                "writing": 5.5,
+                "speaking": 6.0
+            },
+            "note": "Passed on First Attempt"
+        }
+    ],
+    "schedule": [
+        {
+            "teacher": "Ms. Amina",
+            "course": "General English - Elementary",
+            "times": [
+                "Mon 09:00-10:40",
+                "Wed 09:00-10:40",
+                "Fri 09:00-10:40"
+            ]
+        },
+        {
+            "teacher": "Mr. Green",
+            "courses": [
+                {
+                    "level": "Intermediate A",
+                    "times": [
+                        "Mon 16:00-17:40",
+                        "Wed 16:00-17:40",
+                        "Fri 16:00-17:40"
+                    ]
+                },
+                {
+                    "level": "Elementary",
+                    "times": [
+                        "Tue 14:00-15:40",
+                        "Thu 14:00-15:40",
+                        "Sat 14:00-15:40"
+                    ]
+                },
+                {
+                    "level": "Intermediate B",
+                    "times": [
+                        "Tue 16:00-17:40",
+                        "Thu 16:00-17:40",
+                        "Sat 16:00-17:40"
+                    ]
+                }
+            ]
+        },
+        {
+            "teacher": "Mr. Bayish",
+            "course": "IELTS",
+            "groups": [
+                {
+                    "name": "Group A",
+                    "times": [
+                        "Mon 14:00-15:40",
+                        "Wed 14:00-15:40",
+                        "Fri 14:00-15:40"
+                    ]
+                },
+                {
+                    "name": "Group B",
+                    "times": [
+                        "Mon 16:00-17:40",
+                        "Wed 16:00-17:40",
+                        "Fri 16:00-17:40"
+                    ]
+                },
+                {
+                    "name": "Group C",
+                    "times": [
+                        "Tue 16:00-17:40",
+                        "Thu 16:00-17:40",
+                        "Sat 16:00-17:40"
+                    ]
+                }
+            ]
+        }
+    ],
+    "contact": {
+        "address": "Bishkek, Sagynbek Supanaliev 25a/1",
+        "phone": "+996 500 480 909",
+        "instagram": "@uni.language_hub"
+    }
+}
