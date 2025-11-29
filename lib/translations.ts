@@ -39,7 +39,27 @@ export const translations = {
             title: "Wall of Fame",
             subtitle: "Our students' achievements speak for themselves",
             overallBand: "Overall Band",
-            badge: "Passed on 1st Attempt"
+            badge: "Passed on 1st Attempt",
+            students: [
+                {
+                    name: "Asamdinova Khanbike",
+                    score: "7.5",
+                    badge: "Passed on 1st Attempt",
+                    quote: "The structured approach helped me achieve my dream score."
+                },
+                {
+                    name: "Aldashov Syrgak",
+                    score: "7.0",
+                    badge: "Passed on 1st Attempt",
+                    quote: "Incredible teachers and a supportive environment."
+                },
+                {
+                    name: "Kadyrkulova Gulnur",
+                    score: "6.5",
+                    badge: "Passed on 1st Attempt",
+                    quote: "I improved my speaking skills significantly in just 2 months."
+                }
+            ]
         },
         cta: {
             title: "Still have questions?",
@@ -110,7 +130,27 @@ export const translations = {
             title: "Стена славы",
             subtitle: "Достижения наших студентов говорят сами за себя",
             overallBand: "Общий балл",
-            badge: "Сдано с первой попытки"
+            badge: "Сдано с первой попытки",
+            students: [
+                {
+                    name: "Асамдинова Ханбике",
+                    score: "7.5",
+                    badge: "Сдала с 1-й попытки",
+                    quote: "Структурированный подход помог мне достичь мечты."
+                },
+                {
+                    name: "Алдашов Сыргак",
+                    score: "7.0",
+                    badge: "Сдал с 1-й попытки",
+                    quote: "Невероятные учителя и поддерживающая атмосфера."
+                },
+                {
+                    name: "Кадыркулова Гульнур",
+                    score: "6.5",
+                    badge: "Сдала с 1-й попытки",
+                    quote: "Я значительно улучшила навыки говорения всего за 2 месяца."
+                }
+            ]
         },
         cta: {
             title: "Остались вопросы?",
@@ -181,7 +221,27 @@ export const translations = {
             title: "Даңктуулар дубалы",
             subtitle: "Студенттердин жетишкендиктери өздөрү айтышат",
             overallBand: "Жалпы балл",
-            badge: "Биринчи аракеттен өттү"
+            badge: "Биринчи аракеттен өттү",
+            students: [
+                {
+                    name: "Асамдинова Ханбике",
+                    score: "7.5",
+                    badge: "Биринчи аракеттен өттү",
+                    quote: "Түзүлгөн ыкма мага кыялымдагы баллга жетүүгө жардам берди."
+                },
+                {
+                    name: "Алдашов Сыргак",
+                    score: "7.0",
+                    badge: "Биринчи аракеттен өттү",
+                    quote: "Мыкты мугалимдер жана колдоочу чөйрө."
+                },
+                {
+                    name: "Кадыркулова Гульнур",
+                    score: "6.5",
+                    badge: "Биринчи аракеттен өттү",
+                    quote: "Мен сүйлөө жөндөмүмдү 2 айдын ичинде кыйла жакшырттым."
+                }
+            ]
         },
         cta: {
             title: "Дагы эле суроолоруңуз барбы?",
