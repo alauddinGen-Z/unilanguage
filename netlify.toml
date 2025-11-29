@@ -1,0 +1,9 @@
+[build]
+  # Build from repository root (no base directory needed)
+  command = "npm run build"
+  publish = ".next"
+
+# Environment variables are set in Netlify UI
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
